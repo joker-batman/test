@@ -24,7 +24,6 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
-import RabbitVid from "./hero/RabbitVid.mov";
 import Rabbit from "./hero/Rabbit.webp";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -106,7 +105,6 @@ export {
   curve,
   robot,
   heroBackground,
-  RabbitVid,
   Rabbit,
   curve1,
   curve2,
