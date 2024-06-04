@@ -26,6 +26,8 @@ import {
   sliders04,
   telegram,
   twitter,
+  sorryp,
+  thanksp,
   yourlogo,
   collab1,
   collab2,
@@ -265,7 +267,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon2,
     imageUrl: rabbit3,
-    destination : "temple1",
+    link : "/temple1",
     light: true,
   },
   {
@@ -275,7 +277,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: rabbit3,
-    destination : "temple2",
+    link : "/temple2",
     light: true,
   },
   {
@@ -285,7 +287,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon2,
     imageUrl: rabbit3,
-    destination : "temple3",
+    link : "/temple3",
     light: true,
   },
 ];
@@ -320,5 +322,28 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+  },
+];
+
+export const final = [
+  {
+    id: "0",
+    title: "Sorry",
+    text: "Really Sorry for every mistake",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: sorryp,
+    link : "/sorry",
+    light: true,
+  },
+  {
+    id: "0",
+    title: "Thank You",
+    text: "Really grateful for everything",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: thanksp,
+    link : "/thankyou",
+    light: true,
   },
 ];

@@ -1,5 +1,4 @@
-import { benefits } from "../constants";
-import Heading from "./Heading";
+import { final } from "../constants";
 import { Link } from 'react-router-dom'; 
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
@@ -7,19 +6,15 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 
-const Benefits = () => {
+const Final = () => {
   return (
     <Section id="temples">
       <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Alright. Let's get Started."
-        />
-         <p className="body-1 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">
-           <b> Manam vellina temples vati experiences, okasri malli revisit chedam.</b>
+         <p className="text-center body-1 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">
+           <b> Finally niku gratitude chupinche time iga.</b>
           </p>
-          <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
+          <div className="flex flex-wrap justify-center gap-10 mb-10">
+          {final.map((item) => (
           <Link to={item.link} key={item.id} className="block"> 
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -32,14 +27,8 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
+                    Click here
                   </p>
                   <Arrow />
                 </div>
@@ -76,4 +65,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Final;

@@ -58,11 +58,6 @@ const Roadmap = () => (
 
         <Gradient />
       </div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-      <Button href="/sorry" className="mr-10">Sorry</Button>
-        <Button href="/thankyou">Thank You</Button>
-      </div>
     </div>
   </Section>
 );

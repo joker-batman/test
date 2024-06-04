@@ -7,10 +7,10 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
+import Final from "./components/Final";
 import Temple1 from "./components/Temple1";
 import Temple2 from "./components/Temple2";
 import Temple3 from "./components/Temple3";
-import Surprise from "./components/Surprise";
 import Panda from "./components/Panda";
 import Brother from "./components/Brother";
 import Supporter from "./components/Supporter";
@@ -30,6 +30,7 @@ const MainContent = () => (
     <Services />
     <Pricing />
     <Roadmap />
+    <Final />
   </>
 );
 
@@ -46,7 +47,6 @@ const App = () => {
           <Route path="/temple1" element={<Temple1 />} />
           <Route path="/temple2" element={<Temple2 />} />
           <Route path="/temple3" element={<Temple3 />} />
-          <Route path="/surprise" element={<Surprise />} />
           <Route path="/panda" element={<Panda />} />
           <Route path="/brother" element={<Brother />} />
           <Route path="/supporter" element={<Supporter />} />

@@ -38,6 +38,9 @@ import collab7 from "./collaboration/collab7.jpg";
 import collab8 from "./collaboration/collab8.jpg";
 import mainIcon from "./collaboration/mainIcon.avif";
 
+import sorryp from "./final/sorryp.webp";
+import thanksp from "./final/thanksp.png";
+
 import service1 from "./services/service-1.png";
 import service2 from "./services/service2.jpg";
 import service3 from "./services/service3.jpg";
@@ -130,6 +133,8 @@ export {
   roadmap3,
   roadmap4,
   undone,
+  sorryp,
+  thanksp,
   notification1,
   notification2,
   notification3,
